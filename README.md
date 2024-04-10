@@ -1,4 +1,4 @@
-# landing
+# Landing Page
 The Oding Project Landing Page
 
 Free images by Foxpool taken from https://pixabay.com/users/foxpool-19974991/ were used. 
