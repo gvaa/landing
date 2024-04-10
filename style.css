@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-header, main {
+header, main, section {
     padding: 0 10% 0 10%;
 }
 
@@ -40,21 +40,94 @@ main {
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
-
 }
 
-main h1 {
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 0;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+article h1 {
     margin: 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
 
-main p {
+article p {
     margin: 0;
-    font-size: 18 px;
+    font-size: 18px;
     color: #e5e7eb;
 }
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 35px;
+    margin: 0;
+    border: none;
+    border-radius: 8px;    
+}
+
+.impostors {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+figure {
+    display: table;
+    margin: 0;
+}
+
+figure img {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
+figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+}
+
+section h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: extra-bold;
+    text-align: center;
+}
+
+.looks {
+    padding-bottom: 70px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 70px 20vw;
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.right {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 /* This is for class: */
 /* .flex-container {
