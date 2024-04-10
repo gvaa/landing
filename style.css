@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+/* This is for class: */
+/* .flex-container {
+
+} */
