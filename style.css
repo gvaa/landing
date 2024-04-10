@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-header, main, section {
+header, main, section, footer {
     padding: 0 10% 0 10%;
 }
 
@@ -128,8 +128,41 @@ section h1 {
     font-style: normal;
 }
 
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 15%;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 0 100px;
+}
 
-/* This is for class: */
-/* .flex-container {
+.action h1 {
+    font-size: 24px;
+    color: #e5e7eb;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
 
-} */
+.action p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.action button {
+    border-style: solid;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
